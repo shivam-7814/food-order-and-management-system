@@ -18,7 +18,7 @@ Creating a Complete Dynamic and Fully Functional Website using PHP prrogramming 
 1. Visitors/Users have to login to order food. //with php mailer
 2. They can browse all the Categories and Food Items. 
 3. They also can order easily from the website.
-4. Admin can Manage Admin, Caegories and Food Items
+4. Admin can Manage Admin, Categories and Food Items
 5. Admin can also Manage and Track Food Order and Delivery
 
 

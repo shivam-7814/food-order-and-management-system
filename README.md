@@ -4,8 +4,8 @@
 # 🥘 Food Ordering Website 
 Creating a Complete Dynamic and Fully Functional Website using PHP prrogramming language and MySQL Database.
 
-# 🏃‍♂️ Run WebPage
-[Click Here to Run ](https://food-order-management.zya.me/)
+# 🏃‍♂️ Run WebPage as front-end page(home-page)
+[Click Here to Run Homepage ](https://food-order-project-02.netlify.app/)
 
 # ⚙️ Technology Used
 1. HTML5
@@ -70,9 +70,14 @@ $db_select = mysqli_select_db($conn, DB_NAME) or die(mysqli_error()); //SElectin
 ```
 
 6. Now, Open the project in your browser. It will run perfectly.
+   for email verfification
+   put your gmail and app password
+   in send-.php file
+        $mail->Username = '';  // your Gmail
+        $mail->Password = 'xxxx xxxx xxxx xxxx';   // your 16-digit app password
 
-7. You can Login with 
+8. You can Login with 
     1. Username = admin
     2. Password = admin@7814
 
-8. Enjoy with Project 😁
+9. Enjoy with Project 😁

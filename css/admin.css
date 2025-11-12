@@ -1,0 +1,350 @@
+/* 
+    Author: Shivam Maurya;
+    Theme: Food Order Website Admin;
+*/
+
+@font-face {
+    font-family: 'twig';
+    src: url(../fonts/TwigSansBold.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'sanva';
+    src: url(../fonts/sanva-font.ttf) format('truetype');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'sanva';
+
+}
+
+ .wrapper h1{
+    margin-top: 6.6rem;
+ }
+
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+.tbl-full{
+    width: 100%;
+}
+.tbl-full tr td img{
+    height: 80px;
+    object-fit: cover;
+
+}
+.tbl-30{
+    width: 50%;
+}
+
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td{
+    padding: 1%;
+}
+table tr td input{
+    width: 100%;
+    color: #F17228;
+    margin: 10px 2px;
+    padding: 18px 26px;
+    font-size: 1rem;
+    font-family: 'sanva';
+    border-radius: 0.5rem;
+    border: none;
+    padding-right: 66px;
+    font-weight: 900;
+    outline: none;
+    resize: none;
+}
+
+
+.btn-primary{
+    background-color: #1e90ff;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 12px;
+
+}
+.btn-primary:hover{
+    background-color: #3742fa;
+}
+
+.btn-secondary{
+    background-color: #7bed9f;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-secondary:hover{
+    background-color: #2ed573;
+}
+
+.btn-danger{
+    background-color: #ff6b81;
+    padding: 1%;
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.file-selector::file-selector-button{
+     resize:none; 
+     outline:none; 
+     padding: 10px 16px; 
+     border-radius: 10px; 
+     margin-right: 20px;
+}
+.btn-danger:hover{
+    background-color: #ff4757;
+}
+
+.success{
+    color: #2ed573;
+    font-family: 'sanva';
+    font-weight: 900;
+
+}
+.error{
+   color: #ff4757;
+    font-family: 'sanva';
+    font-weight: 900;
+}
+
+
+/* CSS for Menu */
+.menu{
+    border-bottom: 1px solid grey;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #ff6b81;
+}
+.menu ul li a:hover{
+    color: #ff4757;
+}
+
+/* CSS for main-content */
+.main-content{
+    background-color: #f1f2f6;
+    padding: 3% 0;
+}
+
+.col-4{
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+
+/* CSS for Footer */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #212121;
+    color: white;
+    font-family: 'sanva';
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #FFB30E;
+}
+
+.footer p{
+
+    color: white;
+    font-family: 'sanva';
+}
+
+/* CSS for Login */
+.login{
+    height: 100vh;
+    width: 98vw;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main-box-login{
+        background-color: #FFFFFF;
+        width: 400px;
+        height: 440px;
+        border-radius: 1.5em;
+        box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+}
+.main-box-user-login{
+        position: relative;
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+        height: 320px;
+        border-radius: 1.5em;
+        box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+        transition: all 0.4s ease;
+        overflow: hidden;
+}
+.sign {
+        padding: 30px 0px;
+
+        color: #FFB30E;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: bold;
+        font-size: 23px;
+    }
+.un {
+    width: 80%;
+    color: rgb(38, 50, 56);
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.04);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    text-align: center;
+    font-family: 'sanva';
+    }
+.pass {
+    width: 76%;
+    color: rgb(38, 50, 56);
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.04);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    text-align: center;
+    margin-bottom: 27px;
+    font-family: 'sanva';
+    }
+form.form1 {
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+.un:focus, .pass:focus {
+         box-shadow: #FFB30E 0px 2px 20px -6px;
+
+        
+    }
+.login-submit{
+        cursor: pointer;
+        border-radius: 5em;
+        font-weight: 900;
+        color: #fff;
+        background-color: #FFB30E;
+        border: 0;
+        padding: 10px 40px;
+        font-family: 'sanva';
+        box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+        transition: all linear 0.2s ;
+        font-size: 16px;
+    }
+
+.login-submit:hover{
+    font-size: 16px;
+    background-color: #F17228;
+    box-shadow: #FFB30E 0px 2px 20px -6px;
+    transform: translateY(-5px);
+
+}
+.dev-name-p a{
+        text-decoration: none;
+        font-weight: 900;
+        color:#F17228 ;
+    }
+.dev-name-p{
+    padding: 20px;
+
+}
+.dev-name-p a:hover{
+    color: blue;
+   
+}
+.going-down-btn{
+    position: absolute; 
+   
+    bottom:14px;  
+    border-radius: 30px; 
+    right: 20px; 
+    display: flex; 
+    align-items: end; 
+    justify-content: end;
+}
+@keyframes bounceDown {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(8px);
+    }
+    60% {
+      transform: translateY(5px);
+    }
+  }
+  .paused {
+  animation-play-state: paused;
+}
+.expand-btn{
+    position: absolute; 
+   
+    bottom:14px;  
+    border-radius: 30px; 
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
+    right: 20px; 
+    display: flex; 
+    align-items: end; 
+    justify-content: end;
+    transition: background-color 0.3s ease; 
+    animation: bounceDown 1s infinite;
+
+}
+.enter-otp-text{
+    padding-right: 40px;
+}

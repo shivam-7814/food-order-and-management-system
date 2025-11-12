@@ -2,7 +2,7 @@
 
 
 # 🥘 Food Ordering Website 
-Creating a Complete Dynamic and Fully Functional Website using PHP prrogramming language and MySQL Database.
+Creating a Complete Dynamic and Fully Functional Website using PHP programming language and MySQL Database.
 
 # 🏃‍♂️ Run WebPage as front-end page(home-page)
 [Click Here to Run Homepage ](https://food-order-project-02.netlify.app/)
